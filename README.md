@@ -25,5 +25,5 @@ puts URI.escape(page3)
 ## Example usage (curl)
 
 ```
-curl http%3A%2F%2Fwww.rubyinside.com%2Fcramp-asychronous-event-driven-ruby-web-app-framework-2928.html
+curl localhost:4567/v1/preview.json?url=http%3A%2F%2Fwww.rubyinside.com%2Fcramp-asychronous-event-driven-ruby-web-app-framework-2928.html
 ```
