@@ -1,0 +1,19 @@
+# 
+# A URL is blacklisted if: 
+# 
+# 1. Url is an exact match against a member of the urls array
+# 2. The host of a URL is a *partial match* of *any part* of the url.
+# 
+# For example, adding "example.org" to the domains would block *ALL* of the 
+# following URLs:
+# 
+# a) http://foo.com/search?q=example.org
+# b) http://example.org.foo.com/anything
+# 
+:domains:
+- example.com
+- example.org
+:urls:
+- http://example.org/index.html
+- http://example.com/index.html
+

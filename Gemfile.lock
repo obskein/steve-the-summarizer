@@ -1,0 +1,66 @@
+GIT
+  remote: https://github.com/peterc/pismo.git
+  revision: 3b784a1fd0c882bcadc9e572aef1cfa8ddfa97bc
+  specs:
+    pismo (0.8.0)
+      awesome_print
+      chronic
+      fast-stemmer
+      fastimage (>= 1)
+      htmlentities
+      nokogiri
+      phrasie (>= 0.1.4)
+      sanitize
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.2.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    awesome_print (1.8.0)
+    chronic (0.10.2)
+    concurrent-ruby (1.0.5)
+    crass (1.0.4)
+    fast-stemmer (1.0.2)
+    fastimage (2.1.4)
+    htmlentities (4.3.4)
+    i18n (1.1.0)
+      concurrent-ruby (~> 1.0)
+    mini_portile2 (2.3.0)
+    minitest (5.11.3)
+    mustermann (1.0.3)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    nokogumbo (1.5.0)
+      nokogiri
+    phrasie (0.1.5)
+    rack (2.0.5)
+    rack-protection (2.0.4)
+      rack
+    sanitize (4.6.6)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (~> 1.4)
+    sinatra (2.0.4)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.4)
+      tilt (~> 2.0)
+    thread_safe (0.3.6)
+    tilt (2.0.8)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  pismo!
+  sinatra
+
+BUNDLED WITH
+   1.16.3
